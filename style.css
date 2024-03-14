@@ -50,7 +50,7 @@ body {
 
 @media only screen and (min-width: 200px) and (max-width: 990px) {
   .timeline-item-l {
-    width: 250px;
+    width: 160px;
     left: 50%; 
     transform: translateX(-50%);
     margin-left: -30%;
@@ -58,7 +58,7 @@ body {
     margin-bottom: 50px;
   }
   #timelineContent2 {
-    width: 250px;
+    width: 160px;
     left: 50%; 
     transform: translateX(-50%);
     margin-left: -30%;
@@ -66,7 +66,7 @@ body {
     margin-bottom: 50px;
   }
   .button-n {
-    width: 250px;
+    width: 160px;
     background-color: #E8E8E8;
     border: #767676 solid;
     border-radius: 20px;
@@ -75,7 +75,7 @@ body {
     padding: 5%;
   }
   .button-r {
-    width: 250px;
+    width: 160px;
     background-color: #990000;
     border: #FFCC00 solid;
     border-radius: 20px;
