@@ -1,0 +1,217 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #990000;
+  transform: translateX(-50%);
+}
+.timeline-item {
+  padding-left: 50px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.timeline-item-r {
+  padding-left: 55%;
+  position: relative;
+  margin-bottom: 50px;
+}
+#timelineContent1, #timelineContent3 {
+  padding-left: 55%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 990px) {
+  .timeline-item-l {
+    width: 250px;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-left: -30%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent2 {
+    width: 250px;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-left: -30%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .button-n {
+    width: 250px;
+    background-color: #E8E8E8;
+    border: #767676 solid;
+    border-radius: 20px;
+    color: #767676;
+    font-size: 20px;
+    padding: 5%;
+  }
+  .button-r {
+    width: 250px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .wie-logo {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  p img {
+    width: 14px;
+    height: 14px;
+  }
+  .speaker-img {
+    width: 64px;
+    height: 64px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .timeline-item-l {
+    width: 400px;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-left: -23%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent2 {
+    width: 400px;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-left: -23%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .button-n {
+    width: 400px;
+    background-color: #E8E8E8;
+    border: #767676 solid;
+    border-radius: 20px;
+    color: #767676;
+    font-size: 20px;
+    padding: 2%;
+  }
+  .button-r {
+    width: 400px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .wie-logo {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  p img {
+    width: 14px;
+    height: 14px;
+  }
+  .speaker-img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+/* .timeline-content-l {
+  text-align: right;
+} */
+.timeline-content-desc {
+  display: none;
+  position: relative;
+  transform: translateZ(-100%);
+  margin-bottom: 50px;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.button-r-desc {
+  border: #FFCC00 solid;
+  border-radius: 20px;
+  color: #990000;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.button-title-1 {
+  font-size: 20px;
+}
+.button-title-2 {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+.button-time {
+  font-size: 15px;
+}
+.button-click {
+  font-size: 13px;
+}
+
+.footer {
+  border: #767676 2px solid;
+  border-radius: 20px;
+  background-color: #E8E8E8;
+  text-align: center;
+  color: black;
+}
+
+.copyright, .follow {
+  border: #767676 2px solid;
+  border-radius: 20px;
+  background-color: #2B5597;
+  text-align: center;
+  color: whitesmoke;
+  padding: 1%;
+  margin: 1%;
+}
+
+a {
+  color: #E8E8E8;
+}
+a :link :hover {
+  color: #FFCC00;
+}
+
+.copyright {
+  display: none;
+}
