@@ -227,3 +227,8 @@ a :link :hover {
 .copyright {
   display: none;
 }
+
+.button-r:hover {
+  background-color: rgba(153, 27, 30, .1);
+  color: #990000;
+}
