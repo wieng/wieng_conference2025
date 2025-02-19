@@ -73,8 +73,8 @@ body {
   #timelineContentWelcome {
     width: 180px;
     left: 50%; 
-    /* transform: translateX(-50%); */
-    /* position: relative; */
+    transform: translateX(-50%);
+    position: relative;
     margin-bottom: 50px;
   }
   .listItem1 {
