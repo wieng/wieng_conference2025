@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@125,200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url('./images/cloud_drop.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.roboto-bold {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+.agenda {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline-item-r {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 990px) {
+  .sameRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+  }
+  .challenge-list {
+    display: flex;
+    justify-content: center;
+  }
+  .same-row-speaker {
+    display: flex;
+    flex-direction: column;
+  }
+  .speaker-img-div {
+    height: 20%;
+    margin: 0;
+  }
+  .speaker-img {
+    width: 100%;
+    height: 100%;
+    border: #990000 2px solid;
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  #timelineContentWelcome {
+    width: 180px;
+    left: 50%; 
+    /* transform: translateX(-50%); */
+    /* position: relative; */
+    margin-bottom: 50px;
+  }
+  .listItem1 {
+    width: 180px;
+    left: 50%; 
+    /* transform: translateX(-50%); */
+    /* position: relative; */
+    margin-bottom: 50px;
+  }
+  .timeline-item-l {
+    width: 180px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent4, #timelineContent5, #timelineContent6 {
+    width: 180px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent1 {
+    width: 180px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent2, #timelineContent3 {
+    width: 180px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .button-n {
+    width: 180px;
+    background-color: #F8F0E3;
+    border: #767676 solid;
+    border-radius: 20px;
+    color: #767676;
+    font-size: 15px;
+    padding: 5%;
+  }
+  .button-r {
+    width: 180px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .button-r-keynote {
+    width: 180px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .button-r-challenge {
+    width: 180px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  /* .logo {
+    max-width: 100%;
+    width: 50;
+    height: 50;
+    display: block;
+    margin: 0 auto;
+  } */
+  .wie-logo {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  p img {
+    width: 14px;
+    height: 14px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .sameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+  }  
+  .same-row-speaker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .speaker-img-div {
+    width: 40%;
+    height: 20%;
+    margin: 0;
+  }
+  .speaker-img {
+    width: 100%;
+    height: 100%;
+    border: #990000 2px solid;
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .speaker-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .speaker-details {
+    width: 40%;
+  }
+  .challenge-details {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+  }
+  .yay {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #timelineContentWelcome {
+    width: 800px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  /* .listItem1 {
+    width: 180px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  } */
+  .timeline-item-l {
+    width: 800px;
+    left: 50%; 
+    transform: translateX(-50%);
+    /* margin-left: -23%; */
+    position: relative;
+    margin-bottom: 50px;
+  }
+  /* #timelineContent4, #timelineContent5, #timelineContent6 {
+    width: 300px;
+    position: relative;
+    margin-bottom: 50px;
+  } */
+  #timelineContent1 {
+    width: 800px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent2 {
+    width: 400px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent3 {
+    width: 400px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  #timelineContent4, #timelineContent5, #timelineContent6 {
+    width: 800px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .button-n {
+    width: 800px;
+    background-color: #F8F0E3;
+    border: #767676 solid;
+    border-radius: 20px;
+    color: #767676;
+    font-size: 30px;
+    padding: 2%;
+  }
+  .button-r {
+    width: 400px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .button-r-keynote {
+    width: 800px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .button-r-challenge {
+    width: 800px;
+    background-color: #990000;
+    border: #FFCC00 solid;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+
+.agenda {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+}
+  .wie-logo {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  p img {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.speaker-desc {
+  margin-top: 5%;
+}
+.timeline-content-desc {
+  display: none;
+  position: relative;
+  transform: translateZ(-100%);
+  margin-bottom: 50px;
+}
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.button-r-desc {
+  border: #FFCC00 solid;
+  border-radius: 20px;
+  color: #990000;
+  font-size: 20px;
+  padding: 20px;
+}
+.button-title-1 {
+  font-size: 20px;
+}
+.button-title-2 {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+.button-title-name {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 0; 
+}
+.button-title-job {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0; 
+}
+.button-title-org {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0; 
+}
+.button-title-grad {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0; 
+}
+.button-title-desc {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+.button-time {
+  font-size: 18px;
+}
+.button-click {
+  font-size: 13px;
+}
+.footer {
+  border: #FFCC00 2px solid;
+  border-radius: 0px;
+  background-color: #990000;
+  text-align: center;
+  color: black;
+  padding-bottom: 1%;
+}
+.copyright, .follow {
+  text-align: center;
+  padding: 1%;
+  margin: 1%;
+  background-color: #990000;
+  border: 0px;
+}
+#followLink {
+  color: whitesmoke;
+}
+a :link :hover {
+  color: #FFCC00;
+}
+.copyright {
+  display: none;
+}
+.button-r:hover {
+  background-color: rgba(153, 27, 30, .1);
+  color: #990000;
+}
+.button-r-challenge:hover {
+  background-color: rgba(153, 27, 30, .1);
+  color: #990000;
+}
+.button-r-keynote:hover {
+  background-color: rgba(153, 27, 30, .1);
+  color: #990000;
+}
+.linkedin-icon {
+  fill: #0077b5;
+}
+.social {
+  margin: 1%;
+}
